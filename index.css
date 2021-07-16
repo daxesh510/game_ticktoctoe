@@ -1,0 +1,31 @@
+.icon{
+    color: rgb(228, 58, 58);
+    font-size: 30px;
+}
+body{
+    background: #c31432; background: -webkit-linear-gradient(to right, #240b36, #c31432); background: linear-gradient(to right, #960df8, #e74f68);
+}
+.grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 15px;
+}
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+h1 {
+    text-align: center;
+    padding: 8px;
+    color: rgb(42, 245, 76);
+}
+
+.m-1 {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
